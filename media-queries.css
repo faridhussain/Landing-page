@@ -1,13 +1,11 @@
 @media (max-width : 600px) {
     .nav{
-        background-color: lightseagreen;
-        color: #ffffff;
         padding: 0 6vw;
         height: 60px;
         border: none;
     }
     .nav h2{
-        font-size: 5vw;
+        font-size: 5.1vw;
     }
     .nav h4{
         font-size: 4vw;
@@ -15,6 +13,38 @@
     }
     .nav i{
         display: block;
-        font-size: 5vw;
+        font-size: 4.5vw;
+    }
+    .nav button{
+        display: none;
+    }
+    .content{
+        height: calc(100% - 60px);
+        flex-direction: column;
+    }
+    .left{
+        width: 100%;
+        height: 50%;
+        padding: 4vw 6vw;
+    }
+    .right{
+        width: 100%;
+        height: 50%;
+    }
+    .left h1{
+        font-size: 9vw;
+        line-height: 11vw;
+    }
+    .left p{
+        font-size: 3.7vw;
+        width: 90%;
+        margin-top: 5vw;
+        margin-bottom: 5vw;
+    }
+    .content button{
+        padding: 3vw 5vw;
+        font-size: 3vw;
+        border-radius: 3px;
+        font-weight: 600;k
     }
 }
